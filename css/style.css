@@ -1,0 +1,156 @@
+body {
+    background-color: #fff;
+    color: #777;
+    font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+h1 {
+    font-family: 'Crete Round', serif;
+    font-weight: bold;
+    color: #62a5a2;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 24px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+h5 {
+    font-size: 15px;
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #444;
+}
+a:hover {
+    color: #62a5a2;
+    ;
+}
+strong {
+    font-weight: bold;
+}
+small {
+    font-size: 13px;
+    color: #777;
+    font-style: italic;
+}
+.clear {
+    clear: both;
+}
+.wrapper {
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 940px;
+}
+header {
+    height: 120px;
+}
+header h1 {
+    float: left;
+    margin-top: 32px;
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    float: left;
+    display: inline-block;
+    margin-top: 50px;
+}
+header nav ul li a {
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;
+}
+#superblok {
+    height: 580px;
+    padding-top: 1px;
+    background: #e8eced url('../images/hero.jpg') no-repeat center;
+}
+#superblok h2 {
+    margin: 180px 0 40px 0;
+}
+#profity ul {
+    margin: 80px 0;
+}
+#profity ul li {
+    width: 300px;
+    padding-top: 140px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+#profity ul li.profity-1 {
+    background: url('../images/profity1.png') no-repeat top center;
+}
+#profity ul li.profity-2 {
+    background: url('../images/profity2.png') no-repeat top center;
+}
+#profity ul li.profity-3 {
+    background: url('../images/profity3.png') no-repeat top center;
+}
+#content {
+    background-color: #f8fafa;
+    padding: 60px 0;
+    text-align: left;
+}
+#content article {
+    width: 460px;
+    height: 270px;
+    float: left;
+}
+#content article:first-child {
+    margin-right: 20px;
+}
+article h4 {
+    border-bottom: 1px solid #62a5a2;
+    padding-bottom: 20px;
+}
+footer {
+    padding: 30px 0;
+    background-color: #f8fafa;
+}
+#footer-info {
+    width: 380px;
+    float: left;
+    margin-top: 10px;
+}
+#footer-links {
+    width: 520px;
+    float: right;
+}
+#footer-links ul {
+    width: 150px;
+    float: left;
+    margin-left: 500px;
+}
+#footer-links ul li {
+    margin: 10px 0;
+}

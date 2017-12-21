@@ -1,0 +1,104 @@
+<html>
+   <head>
+      <title>Kirya sdelal landing</title>
+      <link rel="stylesheet" type="text/css" href="css/reset.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+   </head>
+   <body>
+      <header>
+         <div class="wrapper">
+            <h1>Kiryalogo.</h1>
+            <nav>
+               <ul>
+                  <li><a href="#">Домой</a></li>
+                  <li><a href="#">Портфолио</a></li>
+                  <li><a href="#">Купить</a></li>
+                  <li><a href="#">Контакты</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <div id="content">
+         <div class="wrapper">
+            <article>
+               <h4>Какое-то название</h4>
+               <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed massa erat, aliquet sed ex in, viverra efficitur nisl. Sed euismod nisi sit amet mattis ullamcorper. Vivamus vel ullamcorper arcu. Nam in rhoncus mauris. Nunc vel tellus quis nunc pretium scelerisque. Proin porttitor eu lectus a suscipit. Praesent tempus pulvinar mauris id viverra. Aenean elit ligula, dignissim ac facilisis a, lobortis non velit. Cras imperdiet tortor eget dui porttitor blandit. Integer pulvinar efficitur lacus ut tempus. Sed volutpat hendrerit ipsum, vitae egestas eros porta quis. Aliquam a vehicula odio. Cras libero diam, posuere vitae fermentum vitae, dapibus ut nunc.</small></p>
+            </article>
+            <article>
+               <img class="mySlides" src="/images/turtle.jpg" style="width:100%">
+               <img class="mySlides" src="/images/people.jpg" style="width:100%">
+               <img class="mySlides" src="/images/swamp.jpg" style="width:100%">
+               <img class="mySlides" src="/images/hzcho.jpg" style="width:100%">
+               <br>
+               <center>
+                  <button onclick="plusDivs(-1)">&#10094;</button>
+                  <button onclick="plusDivs(1)">&#10095;</button>
+               </center>
+               <script>
+                  var slideIndex = 1;
+                  showDivs(slideIndex);
+                  
+                  function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                  }
+                  
+                  function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {slideIndex = 1}    
+                    if (n < 1) {slideIndex = x.length}
+                    for (i = 0; i < x.length; i++) {
+                       x[i].style.display = "none";  
+                    }
+                    x[slideIndex-1].style.display = "block";  
+                  }
+               </script>
+            </article>
+            <div class="clear"></div>
+         </div>
+      </div>
+      <div id="superblok">
+         <div class="wrapper">
+            <h2><strong>Какой-то текст на картинке</strong><br/></h2>
+            <h3>Ну и ещё больше текста на картинке</h3>
+         </div>
+      </div>
+      <div id="profity">
+         <div class="wrapper">
+            <ul>
+               <li class="profity-1">
+                  <h4>Таблетки</h4>
+               </li>
+               <li class="profity-2">
+                  <h4>Глаз</h4>
+               </li>
+               <li class="profity-3">
+                  <h4>Две капельки</h4>
+               </li>
+               <div class="clear"></div>
+            </ul>
+         </div>
+      </div>
+      <footer>
+         <div class="wrapper">
+            <div id="footer-info">
+               <p>Copyright 2017 Kirya</p>
+               <p><a href="#">Terms of Service</a> I <a href="#">Privacy</a></p>
+            </div>
+            <div id="footer-links">
+               <ul>
+                  <li>
+                     <h5>Kirya</h5>
+                  </li>
+                  <li><a href="#">Домой</a></li>
+                  <li><a href="#">Портфолио</a></li>
+                  <li><a href="#">Купить</a></li>
+                  <li><a href="#">Контакты</a></li>
+               </ul>
+            </div>
+            <div class="clear"></div>
+         </div>
+      </footer>
+   </body>
+</html>
